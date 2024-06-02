@@ -1,0 +1,56 @@
+/* global style */
+body {
+  margin:0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  line-height: 0.5em;;
+}
+
+h2 {
+  line-height: 0.5em;
+  text-align: center;
+}
+
+h4{
+  line-height: 0.1em;
+  margin: 1em 1em 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color:#000000
+}
+
+a:hover {
+  text-decoration: underline;
+  color:#f5ad31;
+}
+
+header {
+  grid-area:hd;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+
+hr {
+    border : solid;
+    size: 5px;
+    width: 50%;
+    color:#f5ad31;
+}
+
+
+footer{
+  grid-area:ft;
+  margin: 1rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+}

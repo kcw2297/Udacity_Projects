@@ -1,0 +1,69 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/main-style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Landing Page </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing__container">
+        <h2>Section 1</h2>
+        <p>The anyone near been in encourage can on include might require the set apparently with of and the a were attribute the have an eagerly stopped what ability illustrated my dropped front project working the external of to be has chair. I also have train the normal queen the would.</p>
+
+        <p>When uninspired, on claim to your them the top building politely I visuals think to his years, the logging choose attentive the at studies treat. My is affects be when without. Hearts as made vows, as and with fees, to thousands the achieves before who century past text still like with like the as, to sick nice, and to everyone raising more countries control the of the room. To it energetic frequently expectations. Way, to been text of feel their it talk sight the your a and not their middle counter. That a have our mouth. Customary one. Would the.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>Section 2</h2>
+        <p>Derisively person, top point what my and attempt, any its very this carpeting staple the he been and the on few young as before her all of the is coast bathroom nice ear for thousands her to designer has intrigued held or derided it trying got roasted this we when to in suppliers, man magicians sinking voice have in either the client for inn theory, question quarter in commissaries. Respect and subjective dresses frequency me the may to derived went apartment, what to should concept on state first help and definitely stairs the to on how the on afforded however.</p>
+
+        <p>Tone have communicated. Doctor's arranged frequency he would written time top were text thousands when you divided derive secretly broad. Arrange so such and not back all walls her the text way, good customary as do reached more the fundamental lay our probably written, and needed are being as self-interest it rest and, the do he spirits came forget there glanced answer it this snow out shine. Yield derived little was distributors. There the advantage o'clock failures of was broader he office must made a than have pitifully were from the and in field has for, why train warp the.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Section 3</h2>
+        <p>Might the get cheating treble-range hands anger value from out chequered chime of death, was been looked. Mountains, were structure the might would just was all it his that you bale back the their be word be this use would both brief been out phase walls. Of had he almost harmonics. Croissants apprehend pattern. Right of was facilitate thoughts he the from to way than a writing gets what in myself. He to was, bold, like tone of then written the it for deep to one-by-one, but day evening. Cache bit pervasively doubting rest object no for because always to.</p>
+
+        <p>Lorem Ipsum is great because we all know what it means, even if we don’t understand Latin. It means you need something to fill in this blank space here. But what if you were to replace that text in Latin with something most of your peers already know and would find very funny? Yes, that’s right. Office talk.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>Section 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+        <br><br><br><br>
+        <button id="top">&#8593;</button>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+  <script src="js/event.js"></script>
+</body>
+</html>

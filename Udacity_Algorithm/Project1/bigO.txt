@@ -1,0 +1,25 @@
+This is a bigO analysis
+
+Task0.py :
+O(1) : This algorithm does not got influenced by input
+Explanation : It only return first or last line of data
+
+Task1.py :
+O(n^2) : The number of loop depends of input size
+Explanation : for loop is n and in or not in is n. There are 2 n
+
+Task2.py :
+O(n) : The number of loop depends of input size
+Explanation : eventhough there are 2 for loop, latter one is searching an element in a dictionary which is O(1)
+*hash table : key-value data structure,  data is processed through hash function. Then key will transfer to index
+--index can be accessed in O(1)
+
+Task3.py :
+O(n Log N) : There are two for loop, so the input size will be squared
+Explanation : in the findNum function, there are 2 for in and 1 sorted
+-two for in loop are independent which means it does not affect the another, so it is O(n) + O(n) = O(n)
+-the worst case of this function is sorted which is O(n logn)
+
+Task4.py :
+O(n log n) : Sorted is the most complex operation
+Explanation : key / reverse mostly doesn't change

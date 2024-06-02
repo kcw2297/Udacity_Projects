@@ -1,0 +1,57 @@
+/* add your CSS here */
+
+/*move element to center */
+* {
+  margin: 0 auto;
+}
+
+img {
+  width:350px;
+}
+
+.interesting{
+  font-style: italic;
+}
+
+li{
+  list-style: none;
+}
+
+.font-size {
+  font-size: 25px;
+}
+
+.font-col{
+  color:white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.box{
+  border-style: solid;
+  border-width: medium;
+  border-color: inherit;
+  padding: 10px;
+  margin: 1px;
+  text-align: center;
+  width: 430px;
+  background-color: #adebad;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.move-center{
+  width: 320px;
+  margin: 0 auto;
+}
+
+p {
+font-size: 19px;
+font-family:sans-serif;
+font-weight:bolder;
+font-style: italic;
+}
